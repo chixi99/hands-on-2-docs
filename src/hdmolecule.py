@@ -96,7 +96,9 @@ class HDMolecule:
 
 
 def analyze_N2(distance):
-
+    """Print out Nitrogen atom energy, Nitrogen molecule energy and
+    Atomization energy
+    """
     N2 = HDMolecule("N", distance)
 
     print("Nitrogen atom energy: %5.2f eV" % N2.atom_energy())
